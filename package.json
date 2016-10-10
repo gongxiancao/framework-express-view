@@ -16,5 +16,7 @@
     "url": "https://github.com/gongxiancao/framework-express-view/issues"
   },
   "homepage": "https://github.com/gongxiancao/framework-express-view#readme",
-  "dependencies": {}
+  "dependencies": {
+    "express-ejs-layouts": "^2.2.0"
+  }
 }
