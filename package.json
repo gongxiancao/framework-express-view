@@ -1,0 +1,20 @@
+{
+  "name": "framework-express-view",
+  "version": "1.0.0",
+  "description": "framework view provider",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gongxiancao/framework-express-view.git"
+  },
+  "author": "GongXian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gongxiancao/framework-express-view/issues"
+  },
+  "homepage": "https://github.com/gongxiancao/framework-express-view#readme",
+  "dependencies": {}
+}
