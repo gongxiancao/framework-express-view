@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/gongxiancao/framework-express-view#readme",
   "dependencies": {
-    "ejs-layout-chain": "^1.0.0"
+    "ejs-layout-chain": "^1.0.2"
   }
 }
