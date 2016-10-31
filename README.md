@@ -1,17 +1,17 @@
 ```
 'use strict';
 process.chdir(__dirname);
-var framework = require('framework')(); // jshint ignore:line
+var ofa = require('ofa')(); // jshint ignore:line
 
-module.exports = framework
-.use('framework-env')
-.use('framework-config')
-.use('framework-service')
-.use('framework-controller')
-.use('framework-express')
-.use('framework-express-view') // view need be used before route
-.use('framework-express-policy')
-.use('framework-express-route')
+module.exports = ofa
+.use('ofa-env')
+.use('ofa-config')
+.use('ofa-service')
+.use('ofa-controller')
+.use('ofa-express')
+.use('ofa-express-view') // view need be used before route
+.use('ofa-express-policy')
+.use('ofa-express-route')
 .lift()
 .listen()
 .on('error', function (err) {
@@ -20,6 +20,6 @@ module.exports = framework
 })
 .on('listened', function () {
   /*jshint multistr: true */
-  logger.info('Portal started at port ' + framework.config.port + ', env=' + framework.environment);
+  logger.info('Portal started at port ' + ofa.config.port + ', env=' + ofa.environment);
 });
 ```

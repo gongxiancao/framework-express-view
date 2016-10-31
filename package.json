@@ -1,21 +1,21 @@
 {
-  "name": "framework-express-view",
+  "name": "ofa-express-view",
   "version": "1.0.0",
-  "description": "framework view provider",
+  "description": "ofa view provider",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gongxiancao/framework-express-view.git"
+    "url": "git+https://github.com/gongxiancao/ofa-express-view.git"
   },
   "author": "GongXian",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gongxiancao/framework-express-view/issues"
+    "url": "https://github.com/gongxiancao/ofa-express-view/issues"
   },
-  "homepage": "https://github.com/gongxiancao/framework-express-view#readme",
+  "homepage": "https://github.com/gongxiancao/ofa-express-view#readme",
   "dependencies": {
     "ejs-layout-chain": "^1.0.2"
   }

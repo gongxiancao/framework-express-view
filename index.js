@@ -6,7 +6,7 @@ function lift () {
   return new Promise(function (resolve) {
     self.expressApp.set('view engine', 'ejs');
     self.expressApp.use(ejsLayoutChain);
-    self.expressApp.set('layout', framework.config.views.layout);
+    self.expressApp.set('layout', ofa.config.views.layout);
     resolve();
   });
 }
